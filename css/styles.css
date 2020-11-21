@@ -90,3 +90,29 @@ header nav ul li {
 .hero-content p {
   font-size: 24px;
 }
+
+/*===================================
+
+
+  About Section Styling
+
+
+*=====================================*/
+
+.about {
+    background: url(../images/astronaut-bg.jpg) center/cover no-repeat;
+    min-height: 100vh;
+    padding: 100px 0;
+    position: relative; /* used for background */
+    z-index: 2;
+}
+.about::before {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to top, black, transparent);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
