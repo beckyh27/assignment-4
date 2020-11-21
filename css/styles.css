@@ -162,7 +162,15 @@ a.learn-more {
 /*===================================
 
 
-  Galleries Section Styling
+  Gallery Section Styling
 
 
 *=====================================*/
+
+.gallery {
+  background: url('../images/solar-system.jpg') center/cover fixed no-repeat;
+  min-height: 75vh;
+  padding: 100px 0;
+  position: relative; /* used for background */
+  z-index: 2;
+}
