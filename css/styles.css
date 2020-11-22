@@ -55,11 +55,11 @@ header nav ul li {
 }
 
 .top-hero img {
-    max-width: 600px;
-    position: absolute;
-    top: 100px;
-    left: 200px;
-    z-index: 2;
+  max-width: 600px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  z-index: 2;
 }
 
 .top-hero::before {
@@ -98,14 +98,15 @@ header nav ul li {
 
 
 *=====================================*/
-
 .about {
-    background: url(../images/astronaut-bg.jpg) center/cover no-repeat;
-    min-height: 100vh;
-    padding: 100px 0;
-    position: relative; /* used for background */
-    z-index: 2;
+  background: url(../images/astronaut-bg.jpg) center/cover no-repeat;
+  min-height: 100vh;
+  padding: 100px 0;
+  position: relative;
+  /* used for background */
+  z-index: 2;
 }
+
 .about::before {
   content: "";
   position: absolute;
@@ -118,22 +119,22 @@ header nav ul li {
 }
 
 .featured-about {
-    min-height: 75vh;
-    max-width: 500px;
-    float: right;
-    margin-right: 15%;
-    color: white;
-    position: relative;
-    z-index: 2;
+  min-height: 75vh;
+  max-width: 500px;
+  float: right;
+  margin-right: 15%;
+  color: white;
+  position: relative;
+  z-index: 2;
 }
 
 .featured-about h3 {
-    font-size: 30px;
-    text-transform: uppercase;
-    max-width: 600px;
-    color: white;
-    font-family: 'Goldman', cursive;
-    padding-bottom: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  max-width: 600px;
+  color: white;
+  font-family: 'Goldman', cursive;
+  padding-bottom: 20px;
 }
 
 .featured-about p {
@@ -147,20 +148,20 @@ header nav ul li {
 }
 
 a.learn-more {
-    font-size: 14px;
-    background: #a47ae6;
-    color: black;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 3px;
-    margin-top: 20px;
-    display: block;
-    max-width: 130px;
-    text-align: center;
+  font-size: 14px;
+  background: #a47ae6;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+  display: block;
+  max-width: 130px;
+  text-align: center;
 }
 
 a.learn-more:hover {
-    background: #ff00c8;
+  background: #ff00c8;
 }
 
 /*===================================
@@ -170,12 +171,12 @@ a.learn-more:hover {
 
 
 *=====================================*/
-
 .gallery {
   background: url('../images/solar-system.jpg') center/cover fixed no-repeat;
   min-height: 75vh;
   padding: 100px 0;
-  position: relative; /* used for background */
+  position: relative;
+  /* used for background */
   z-index: 2;
 }
 
@@ -190,8 +191,8 @@ a.learn-more:hover {
   from {
     transform: translateX(-500px);
   }
+
   to {
     transform: translateX(1500px);
   }
-
 }
