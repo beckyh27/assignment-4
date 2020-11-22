@@ -159,6 +159,10 @@ a.learn-more {
     text-align: center;
 }
 
+a.learn-more:hover {
+    background: #ff00c8;
+}
+
 /*===================================
 
 
@@ -173,4 +177,21 @@ a.learn-more {
   padding: 100px 0;
   position: relative; /* used for background */
   z-index: 2;
+}
+
+.rocket {
+  width: 400px;
+  position: relative;
+  top: 80px;
+  animation: fly 8s forwards infinite linear;
+}
+
+@keyframes fly {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(1500px);
+  }
+
 }
